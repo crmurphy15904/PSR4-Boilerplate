@@ -37,4 +37,5 @@ dwsync.xml
 intermediate
 .idea
 plugin-name/vendor
+test-plugin/vendor
 cache
