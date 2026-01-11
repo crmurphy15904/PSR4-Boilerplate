@@ -14,6 +14,7 @@ class Display {
   /**
    * __construct
    *
+   * @param  mixed $plugin
    * @return void
    */
   public function __construct($plugin) {
