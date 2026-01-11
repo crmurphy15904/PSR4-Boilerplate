@@ -7,7 +7,7 @@ class Display {
   /**
 	 * Full path and filename of plugin.
 	 *
-	 * @var string $version Full path and filename of plugin.
+	 * @var string $plugin Full path and filename of plugin.
 	 */
   private $plugin;
   
