@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "polyplugins/settings-class-for-wordpress",
+            "version": "3.1.0",
+            "version_normalized": "3.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PolyPlugins/Settings-Class-for-Wordpress.git",
+                "reference": "b46a4862258f340e1b69dffd3feceba03b900b7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PolyPlugins/Settings-Class-for-Wordpress/zipball/b46a4862258f340e1b69dffd3feceba03b900b7a",
+                "reference": "b46a4862258f340e1b69dffd3feceba03b900b7a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2025-12-15T08:44:39+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "PolyPlugins\\Settings\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Poly Plugins",
+                    "email": "contact@polyplugins.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A reusable settings class for WordPress.",
+            "homepage": "https://github.com/PolyPlugins/Settings-Class-for-Wordpress",
+            "keywords": [
+                "reusable admin panel",
+                "settings class",
+                "settings class for wordpress",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/PolyPlugins/Settings-Class-for-Wordpress/issues",
+                "source": "https://github.com/PolyPlugins/Settings-Class-for-Wordpress/tree/3.1.0"
+            },
+            "install-path": "../polyplugins/settings-class-for-wordpress"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
