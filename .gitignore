@@ -36,6 +36,8 @@ dwsync.xml
 .CVS
 intermediate
 .idea
-plugin-name/vendor
-test-plugin/vendor
+**/vendor/
 cache
+
+# Archive files
+*.zip
