@@ -23,7 +23,7 @@
 
 namespace Company\Plugin_Name\Backend;
 
-use PolyPlugins\Settings;
+use PolyPlugins\Settings\Settings;
 
 if (!defined('ABSPATH')) exit;
 

@@ -1,7 +1,14 @@
 {
+    "name": "company/plugin-name",
+    "description": "A WordPress plugin boilerplate with reusable admin panel",
+    "version": "1.0.0",
+    "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
             "Company\\Plugin_Name\\": "classes/"
         }
+    },
+    "require": {
+        "polyplugins/settings-class-for-wordpress": "^3.1"
     }
 }
