@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * The admin-specific functionality of the plugin.
@@ -200,7 +200,7 @@ class Options {
       ),
     );
 
-		if (class_exists('PolyPlugins\Settings')) {
+		if (class_exists('PolyPlugins\Settings\Settings')) {
       $this->settings = new Settings($this->plugin, $this->namespace, $this->config, $this->fields);
       $this->settings->init();
     } else {

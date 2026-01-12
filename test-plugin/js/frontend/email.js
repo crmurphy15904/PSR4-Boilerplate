@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+﻿jQuery(document).ready(function ($) {
 
   const { __, _x, _n, _nx } = wp.i18n;
 

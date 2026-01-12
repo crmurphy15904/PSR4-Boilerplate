@@ -1,4 +1,4 @@
-# PSR-4 WordPress Plugin Boilerplate
+﻿# PSR-4 WordPress Plugin Boilerplate
 
 This is a fork of WordPress Plugin Boilerplate with Namespacing and Autoloading added. Namespacing is very useful in preventing conflicts between plugins while autoloading helps increase the performance of the application along with decreasing development times incurred from including files manually.
 
@@ -23,7 +23,7 @@ The WordPress Plugin Boilerplate includes the following files:
 
 * `.gitignore`. Used to exclude certain files from the repository.
 * `CHANGELOG.md`. The list of changes to the core project.
-* `README.md`. The file that you’re currently reading.
+* `README.md`. The file that youâ€™re currently reading.
 * A `plugin-name` directory that contains the source code - a fully executable WordPress plugin.
 
 ## Features
@@ -71,7 +71,7 @@ The WordPress Plugin Boilerplate is licensed under the GPL v2 or later.
 
 > You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-A copy of the license is included in the root of the plugin’s directory. The file is named `LICENSE`.
+A copy of the license is included in the root of the pluginâ€™s directory. The file is named `LICENSE`.
 
 ## Important Notes
 
@@ -111,4 +111,4 @@ The homepage is based on a design as provided by [HTML5Up](http://html5up.net), 
 
 ## Documentation, FAQs, and More
 
-If you’re interested in writing any documentation or creating tutorials please [let me know](http://devinvinson.com/contact/) .
+If youâ€™re interested in writing any documentation or creating tutorials please [let me know](http://devinvinson.com/contact/) .

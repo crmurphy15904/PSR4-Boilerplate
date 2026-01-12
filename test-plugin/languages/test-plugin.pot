@@ -1,4 +1,4 @@
-# Copyright (C) 2025 Company
+﻿# Copyright (C) 2025 Company
 # This file is distributed under the same license as the Test Plugin plugin.
 msgid ""
 msgstr ""

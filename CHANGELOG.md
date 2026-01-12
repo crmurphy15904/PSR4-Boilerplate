@@ -1,4 +1,4 @@
-# Changelog
+﻿# Changelog
 * (19 August 2025). Added additional boilerplate for Settings Class for WordPress as 'test-plugin'
 * (26 January 2023). Added additional boilerplate for Reusable Admin Panel
 * (9 July 2021). Propery Translation and class file renames.

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * Define the internationalization functionality
