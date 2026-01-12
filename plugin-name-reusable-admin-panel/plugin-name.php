@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /**
  * Plugin Name:       WordPress Plugin Boilerplate with Reusable Admin Panel
