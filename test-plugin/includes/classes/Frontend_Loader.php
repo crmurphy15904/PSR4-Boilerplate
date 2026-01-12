@@ -3,6 +3,7 @@
 namespace Company\Test_Plugin;
 
 use Company\Test_Plugin\Frontend\Enqueue;
+use Company\Test_Plugin\Frontend\Display;
 
 class Frontend_Loader {
 
@@ -29,6 +30,7 @@ class Frontend_Loader {
    */
   public function init() {
     $this->load_enqueue();
+    $this->load_display();
   }
   
   /**
@@ -39,6 +41,16 @@ class Frontend_Loader {
   public function load_enqueue() {
     $enqueue = new Enqueue($this->plugin);
     $enqueue->init();
+  }
+  
+  /**
+   * Load Display
+   *
+   * @return void
+   */
+  public function load_display() {
+    $display = new Display($this->plugin);
+    $display->init();
   }
 
 }
