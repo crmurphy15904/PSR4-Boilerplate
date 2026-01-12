@@ -102,6 +102,17 @@ class Display {
 	}
 
 	/**
+	 * Display "Hello, Lemon-Aiders!" shortcode callback.
+	 *
+	 * @since    1.0.0
+	 * @param    array    $atts    Shortcode attributes.
+	 * @return   string            The shortcode output.
+	 */
+	public function display_lemon_aiders( $atts = array() ) {
+		return 'Hello, Lemon-Aiders!';
+	}
+
+	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
 	 * @since   1.0.0

@@ -201,7 +201,7 @@ class Options {
     );
 
 		if (class_exists('PolyPlugins\Settings\Settings')) {
-      $this->settings = new Settings($this->plugin, $this->namespace, $this->config, $this->fields);
+      $this->settings = new Settings($this->plugin, $this->config, $this->fields);
       $this->settings->init();
     } else {
       $this->add_notice('"' . $this->plugin_name . '"' . " requires <a href='/wp-admin/plugin-install.php?tab=plugin-information&amp;plugin=reusable-admin-panel&amp;TB_iframe=true&amp;width=772&amp;height=608' class='thickbox open-plugin-details-modal' aria-label='More information about Reusable Admin Panel' data-title='Reusable Admin Panel'>Reusable Admin Panel</a> to be installed.");

@@ -244,6 +244,7 @@ class Plugin {
 
 		$plugin_public = new Display( $this->plugin, $this->plugin_path, $this->plugin_slug, $this->settings, $this->version );
 
+		$this->loader->add_action( 'init', $plugin_public, 'init' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 		$this->loader->add_action( 'wp_body_open', $plugin_public, 'display_option' );
