@@ -93,6 +93,15 @@ class Display {
 	}
 
 	/**
+	 * Init
+	 *
+	 * @return void
+	 */
+	public function init() {
+		add_shortcode('lemon_aiders', array($this, 'display_lemon_aiders'));
+	}
+
+	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
 	 * @since   1.0.0

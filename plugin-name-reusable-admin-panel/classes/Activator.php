@@ -33,6 +33,8 @@ class Activator {
      * @since    1.0.0
      */
     public static function activate() {
+        plugin_name_log( 'Activation started', 'Activator' );
+        
         global $wpdb;
 
         // Example: Create a custom database table
@@ -66,5 +68,7 @@ class Activator {
         if (!wp_next_scheduled('plugin_name_daily_event')) {
             wp_schedule_event(time(), 'daily', 'plugin_name_daily_event');
         }
+        
+        plugin_name_log( 'Activation completed successfully', 'Activator' );
     }
 }

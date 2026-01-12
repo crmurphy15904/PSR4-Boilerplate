@@ -33,6 +33,8 @@ class Deactivator {
      * @since    1.0.0
      */
     public static function deactivate() {
+        plugin_name_log( 'Deactivation started', 'Deactivator' );
+        
         // Clear scheduled events
         $timestamp = wp_next_scheduled('plugin_name_daily_event');
         if ($timestamp) {
@@ -56,5 +58,7 @@ class Deactivator {
         }
 
         // Optionally, perform cleanup tasks here without permanently altering user data
+        
+        plugin_name_log( 'Deactivation completed successfully', 'Deactivator' );
     }
 }

@@ -25,6 +25,26 @@ if (!defined('ABSPATH')) exit;
 require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
 /**
+ * Log a message for debugging.
+ *
+ * @since    1.0.0
+ * @param    mixed    $message    String, array, or object to log.
+ * @param    string   $prefix     Optional prefix for the log message.
+ * @return   void
+ */
+function plugin_name_log( $message, $prefix = 'Plugin Name' ) {
+    if ( defined( 'WP_DEBUG' ) && WP_DEBUG ) {
+        $log_message = '[' . $prefix . '] ';
+        if ( is_array( $message ) || is_object( $message ) ) {
+            $log_message .= print_r( $message, true );
+        } else {
+            $log_message .= $message;
+        }
+        error_log( $log_message );
+    }
+}
+
+/**
  * The code that runs during plugin activation.
  * This action is documented in classes/activator.php
  */

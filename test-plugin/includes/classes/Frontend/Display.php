@@ -36,6 +36,7 @@ class Display {
    * @return string
    */
   public function display_lemon_aiders() {
+    error_log( '[Test Plugin] lemon_aiders shortcode rendered' );
     return 'Hello, Lemon-Aiders';
   }
   
